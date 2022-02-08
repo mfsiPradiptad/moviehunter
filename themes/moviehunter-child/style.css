@@ -1,0 +1,154 @@
+/*
+ Theme Name:   Movie Hunter Child
+ Theme URI:    http://example.com/moviehunter-child/
+ Description:  Movie Hunter Child Theme
+ Author:       Pradipta Das
+ Author URI:   http://example.com
+ Template:     moviehunter
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ Text Domain:  moviehunterchild
+*/
+
+body {
+	background-color: rgb(33 39 110);
+    background-image: none;
+}
+
+.head h2{
+    color: white;
+    font-weight: 500;
+}
+
+#search .search-field {
+    color: black;
+    background: rgb(247, 247, 247);
+}
+
+#reply-title,
+.logged-in-as a,
+.comment-form-comment,
+.comments-title,
+.fn a,
+.says,
+.comment-meta a,
+.comment-body,
+.reply a,
+.required-field-message,
+#email-notes,
+.comment-form,
+#footer p,
+.social span,
+.rating .cmg-soon-p {
+	color:white;
+}
+
+#sub-navigation,
+.box,
+#main {
+    border-color:#ffffff;
+}
+.content h4,
+.head h2,
+.head h3,
+.content a,
+.rating .cmg-soon-p{
+    color:#a7ff00;
+    font-weight:600;
+}
+.content p {
+    font-weight:600;
+}
+.text-right a,
+.text-right a:hover{
+    color: #a7ff00;
+    font-weight: 600;
+}
+
+.content a:hover,
+.glb-color,
+#footer a {
+    color:#a7ff00;
+}
+.glb-color,
+#footer a, {
+    font-weight: 600;
+}
+
+#navigation ul li .dropdown-content{
+    background-color:#ffffff;
+}
+
+#navigation ul li .dropdown-content a{
+    color: black;
+}
+
+#navigation ul li .dropdown-content a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.comment-respond fieldset.wppcr_rating > legend,
+p {
+    color: #f3f3f3;
+}
+
+.submit {
+    background-color:#a7ff00;
+    color: #000;
+}
+
+.comment-list{
+    list-style: none;
+}
+
+.taxonomy h2 a:active,
+.taxonomy h2 a:hover {
+    color: #a7ff00;
+}
+.glb-color:hover{
+    color: #a7ff00;
+}
+
+#navigation ul li a.active,
+#navigation ul li a:hover,
+.dropdown:hover .dropbtn {
+	color:#a7ff00;
+}
+
+#navigation ul li .dropdown-content a:hover{
+    color: #a7ff00;
+}
+
+img {
+    box-shadow: 3px 3px 3px rgb(160, 158, 158)
+}
+
+.content img {
+    box-shadow: none;
+}
+
+.must-log-in,
+.must-log-in a,
+.must-log-in a:active,
+.must-log-in a:hover {
+    color: #a7ff00;
+    font-weight: 700;
+}
+.bg-black {
+    background-color: #00000052;;
+}
+
+ion-icon:hover,
+ion-icon:active {
+  color: rgb(255, 217, 0);
+  transition: 0.5s;
+  transform: scale(1.20) rotate(-20Deg);
+
+}
+
+.movie-image img:active,
+.movie-image img:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+	transition: .5s ease;
+}
